@@ -1,21 +1,26 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+    <style name="Layout_Wrap_Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
     <style name="Layout_Match_Wrap">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="MaliTextStyle" parent="Layout_Match_Wrap">
+    <style name="MaliTextStyle" parent="Layout_Wrap_Wrap">
         <item name="android:fontFamily">@font/font_mali</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
     </style>
 
-    <style name="MerriweatherTextStyle" parent="Layout_Match_Wrap">
+    <style name="MerriweatherTextStyle" parent="Layout_Wrap_Wrap">
         <item name="android:fontFamily">@font/font_merriweather</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
     </style>
 
-    <style name="ChineseTextStyle" parent="Layout_Match_Wrap">
+    <style name="ChineseTextStyle" parent="Layout_Wrap_Wrap">
         <item name="android:fontFamily">@font/font_chinese</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
     </style>
