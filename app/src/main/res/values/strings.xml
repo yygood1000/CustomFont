@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomFont</string>
+    <string name="title">Fonts in XML</string>
+    <string name="text1">Android 8.0 (API level 26) introduces a new feature, Fonts in XML, which lets you use fonts as resources. You can add the font file in the res/font/ folder to bundle fonts as resources. These fonts are compiled in your R file and are automatically available in Android Studio. You can access the font resources with the help of a new resource type, font. For example, to access a font resource, use @font/myfont, or R.font.myfont.</string>
+    <string name="text2">To use the Fonts in XML feature on devices running Android 4.1 (API level 16) and higher, use the Support Library 26. For more information on using the support library, refer to the Using the support library section.</string>
+    <string name="title_merriweather">Creating a font family</string>
+    <string name="text3">A font family is a set of font files along with its style and weight details. In Android, you can create a new font family as an XML resource and access it as a single unit, instead of referencing each style and weight as separate resources. By doing this, the system can select the correct font based on the text style you are trying to use.</string>
+    <string name="text4">To create a font family, perform the following steps in the Android Studio</string>
+</resources>

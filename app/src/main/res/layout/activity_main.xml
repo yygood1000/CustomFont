@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Layout_Match_Wrap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            style="@style/MaliTextStyle"
+            android:text="@string/title"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MaliTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/text1"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            style="@style/MaliTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/text2"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/MerriweatherTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/title_merriweather"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/MerriweatherTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/text3"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <TextView
+            style="@style/MerriweatherTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/text4"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/ChineseTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="中文字体测试 - normal"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/ChineseTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="中文字体测试 - italic"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/ChineseTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="中文字体测试 - bold"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
