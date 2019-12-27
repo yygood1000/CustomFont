@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--这里引用的字体是中文字体-->
+    <font
+        android:font="@font/pingfang_regular_mfw"
+        android:fontStyle="normal"
+        android:fontWeight="100"
+        app:font="@font/pingfang_regular_mfw"
+        app:fontStyle="normal"
+        app:fontWeight="100"
+        tools:targetApi="o" />
+
+    <font
+        android:font="@font/pingfang_bold_mfw"
+        android:fontStyle="normal"
+        android:fontWeight="1000"
+        app:font="@font/pingfang_bold_mfw"
+        app:fontStyle="normal"
+        app:fontWeight="1000"
+        tools:targetApi="o" />
+
+    <font
+        android:font="@font/pingfang_bold_mfw"
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        app:font="@font/pingfang_bold_mfw"
+        app:fontStyle="italic"
+        app:fontWeight="400200"
+        tools:targetApi="o" />
+</font-family>

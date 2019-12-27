@@ -35,4 +35,9 @@
         <item name="android:fontFamily">@font/font_chinese</item>
         <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
     </style>
+
+    <style name="ChineseMFWTextStyle" parent="Layout_Wrap_Wrap">
+        <item name="android:fontFamily">@font/font_chinese_mfw</item>
+        <item name="android:letterSpacing" tools:targetApi="lollipop">0.05</item>
+    </style>
 </resources>
